@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+    width: 95vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colc {
+    display: flex;
+    justify-content: center;
+}
+
+.buyButton {
+
+    visibility: hidden;
+    height: 2em;
+    width: 6em;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-radius: 0.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  height: 28em;
+  width: 16em;
+
+  background-color: #cecece;
+  border-radius: 0.5em;
+  transition: 0.4s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1em;
+}
+
+.card:hover {
+  transition: 0.4;
+  background-color: white;
+}
+
+.card:hover {
+  .upCard,
+  .downCard {
+    visibility: hidden;
+  }
+
+  .buyButton {
+    margin-bottom : 3em;
+    visibility: visible;
+  }
+
+  .centerCard {
+    margin-bottom: -3em;
+  }
+}
+
+.tshirt {
+  height: 12em;
+  width: 12em;
+  border-radius: 0.5em;
+}
+
+.upCard,
+.downCard {
+  height: 4em;
+}
+
+.centerDownCard {
+  height: 6em;
+}
+
+.centerCard {
+  height: 12em;
+}
